@@ -1,13 +1,10 @@
 
-
-
 def doBuild() {
     stage('build') {
         def image = docker.build("ssp25/sspcloud")
         image.push("ssp25/sspcloud:786")
     }
 }
-
 
 node ('docker') {
     checkout scm
