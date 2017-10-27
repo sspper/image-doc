@@ -14,7 +14,7 @@ node ('docker') {
     }
 
     try {
-        delivery.notify("Starting")
+        
         withCredentials([usernamePassword(credentialsId: 'ssp25')]) {
             sh "docker login -u ssp25 -p Password@54321"
         }
