@@ -1,1 +1,0 @@
-Only config.json may reside in this folder. The Network/ folder is wiped out and replaced in the docker container.
