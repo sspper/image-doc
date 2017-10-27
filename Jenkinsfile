@@ -15,11 +15,9 @@ node ('docker') {
 
     try {
         
-       // withCredentials([usernamePassword(credentialsId: 'ssp25')]) {
-            sh "sudo -i"
+       withCredentials([usernamePassword(credentialsId: 'ssbuild', passwordVariable: 'dockerhubPass', usernameVariable: 'dockerhubUser')]) {
             sh "docker login -u ssp25 -p Password@54321"
-        
-        // }
+        }
         doBuild() // You implement doBuild
 
         
