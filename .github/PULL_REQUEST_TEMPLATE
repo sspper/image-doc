@@ -1,0 +1,23 @@
+The Skillsoft guidelines for reviewing and committing code are [here](https://skillsoftdev.atlassian.net/wiki/display/PAR/Paris+Squad+Onboarding#ParisSquadOnboarding-checkin)
+
+#### What does this PR do?
+
+
+#### Which issue(s) is it related to (Jira ref)?
+
+
+#### If any Issues fixed along with this PR:
+
+
+
+
+#### Guidelines for review
+
+_(remove unnecessary elements of the list)_
+
+* [ ] Were UnitTests/Functional/Automation added (if necessary), and did all tests pass?
+* [ ] Does the new feature work in your local environment?
+  [ ] Does the new feature use the l10n libraries instead of static text?
+* [ ] Was the feature tested?
+
+The complete Definition of Done is [here](https://skillsoftdev.atlassian.net/wiki/display/PMO/Definition+of+Done+-+UI+Components)

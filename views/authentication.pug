@@ -1,0 +1,55 @@
+extends layout
+
+include mixins/_DomainForm
+
+block content
+  script.
+    function next(){
+      alert(showlogin);
+      window.location.href = '/login?domainname=#{domain}'
+    }
+
+    function sub(){
+      //- if(document.getElementById("checkboxlog").checked){
+      //-   window.showlogs = true;
+      //- }else{
+      //-   window.showlogs = false;
+      //- }
+      document.logform.submit();
+    }
+
+    function validateDomain(){
+      if(document.getElementById("domaininput").value.length > 0){
+        document.domainform.submit();
+      }else{
+        alert("Domain name required");
+      }
+    }
+
+    function validateSignin(){
+      if(document.getElementById("domainname").value.length > 0 && document.getElementById("loginusername").value.length > 0 &&
+         document.getElementById("loginpassword").value.length){
+         document.loginform.submit();
+      }else{
+        alert("All fields are required");
+      }
+    }
+
+  .inner
+    +logs({
+      showlogs: logres,
+      logs:logspath
+    })
+    if showlogin
+      +loginForm({
+        domainname: domain,
+        showlogs: logres,
+        login:loginpath
+      })
+    else
+      +domainForm({domain:domainpath})
+  if domain
+    button(onclick="next()" class="next") Next
+  if logs
+    .errorconsole
+      p.logs #{logs}

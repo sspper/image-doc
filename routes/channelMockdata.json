@@ -1,0 +1,422 @@
+[
+{
+  "id": "3356fb80-e248-11e6-91a7-0242c0a80704",
+  "title": "Excel",
+  "description": "<p>Excel is the powerful spreadsheet component of Microsoft Office. Discover Excel and its many uses.</p>",
+  "imageUrl": "https://s3.amazonaws.com/skillsoft-qa-cp-application/channel/images/saved/3356fb80-e248-11e6-91a7-0242c0a80704.jpg",
+  "type": "Channel",
+  "naturalLanguageBannerTemplate": "I want to learn {TechnologyAndVersion} {ExpertiseLevel}.",
+  "channelFilters": [
+    {
+      "name": "ExpertiseLevel",
+      "defaultValue": "Beginner",
+      "filterValues": [
+        {
+          "id": 187,
+          "text": "Expert"
+        },
+        {
+          "id": 184,
+          "text": "Intermediate"
+        },
+        {
+          "id": 186,
+          "text": "Beginner"
+        }
+      ]
+    },
+    {
+      "name": "TechnologyAndVersion",
+      "defaultValue": "Excel 2016 (Windows)",
+      "filterValues": [
+        {
+          "id": 189,
+          "text": "Excel 2016 (Windows)"
+        },
+        {
+          "id": 188,
+          "text": "Excel iPad"
+        },
+        {
+          "id": 185,
+          "text": "Excel Office Online"
+        }
+      ]
+    }
+  ],
+  "channelViews": [
+    {
+      "id": "5504b130-e899-11e6-87d7-2bca0c29639e",
+      "filterIds": [
+        186,
+        188
+      ],
+      "default": false,
+      "pin": null,
+      "type": "ChannelView"
+    },
+    {
+      "id": "fb032860-e898-11e6-87d7-2bca0c29639e",
+      "filterIds": [
+        184,
+        189
+      ],
+      "default": false,
+      "pin": null,
+      "type": "ChannelView"
+    },
+    {
+      "id": "7379e030-e89f-11e6-87d7-2bca0c29639e",
+      "filterIds": [
+        184,
+        185
+      ],
+      "default": false,
+      "pin": null,
+      "type": "ChannelView"
+    },
+    {
+      "id": "45594060-e89f-11e6-87d7-2bca0c29639e",
+      "filterIds": [
+        184,
+        188
+      ],
+      "default": false,
+      "pin": null,
+      "type": "ChannelView"
+    },
+    {
+      "id": "1dd35bd0-e899-11e6-87d7-2bca0c29639e",
+      "filterIds": [
+        187,
+        189
+      ],
+      "default": false,
+      "pin": null,
+      "type": "ChannelView"
+    },
+    {
+      "id": "633ee850-e89f-11e6-87d7-2bca0c29639e",
+      "filterIds": [
+        185,
+        186
+      ],
+      "default": false,
+      "pin": null,
+      "type": "ChannelView"
+    },
+    {
+      "id": "335749a0-e248-11e6-91a7-0242c0a80704",
+      "filterIds": [
+        186,
+        189
+      ],
+      "default": true,
+      "pin": null,
+      "type": "ChannelView"
+    }
+  ]
+}
+,{
+    "id": "dc64ce30-e24a-11e6-93f3-0242c0a80605",
+    "title": "Windows End User",
+    "description": "<p>Microsoft Windows is the ubiquitous OS running the majority of the world&#39;s computers. Learn about Windows and its usage here.</p>",
+    "imageUrl": "https://s3.amazonaws.com/skillsoft-qa-cp-application/channel/images/saved/dc64ce30-e24a-11e6-93f3-0242c0a80605.jpg",
+    "type": "Channel",
+    "naturalLanguageBannerTemplate": "Version: {TechnologyAndVersion}       Level: {ExpertiseLevel}",
+    "channelFilters": [
+      {
+        "name": "TechnologyAndVersion",
+        "defaultValue": "Windows 10",
+        "filterValues": [
+          {
+            "id": 164,
+            "text": "Windows 10"
+          },
+          {
+            "id": 165,
+            "text": "Windows 7"
+          },
+          {
+            "id": 166,
+            "text": "Windows 10 Mobile"
+          },
+          {
+            "id": 168,
+            "text": "Windows 8"
+          }
+        ]
+      },
+      {
+        "name": "ExpertiseLevel",
+        "defaultValue": "Beginner",
+        "filterValues": [
+          {
+            "id": 167,
+            "text": "Beginner"
+          },
+          {
+            "id": 163,
+            "text": "Intermediate"
+          }
+        ]
+      }
+    ],
+    "channelViews": [
+      {
+        "id": "cb1bd8b0-e8a0-11e6-87d7-2bca0c29639e",
+        "filterIds": [
+          163,
+          166
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "39a4c590-e8a0-11e6-87d7-2bca0c29639e",
+        "filterIds": [
+          163,
+          168
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "a4540540-e8a0-11e6-87d7-2bca0c29639e",
+        "filterIds": [
+          166,
+          167
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "cbfd0660-e89f-11e6-87d7-2bca0c29639e",
+        "filterIds": [
+          163,
+          165
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "250dc690-e8a0-11e6-87d7-2bca0c29639e",
+        "filterIds": [
+          167,
+          168
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "dc651c50-e24a-11e6-93f3-0242c0a80605",
+        "filterIds": [
+          164,
+          167
+        ],
+        "default": true,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "fcfb2e30-e8a0-11e6-87d7-2bca0c29639e",
+        "filterIds": [
+          163,
+          164
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "b39bb8f0-e89f-11e6-87d7-2bca0c29639e",
+        "filterIds": [
+          165,
+          167
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      }
+    ]
+  },
+  {
+    "id": "e9396730-fcf1-11e6-9f4e-99dfe71b41ed",
+    "title": "Channel 123",
+    "description": "<p>No filters</p>",
+    "imageUrl": "https://s3.amazonaws.com/skillsoft-qa-cp-application/channel/images/saved/dc64ce30-e24a-11e6-93f3-0242c0a80605.jpg",
+    "type": "Channel",
+    "naturalLanguageBannerTemplate": "This is text",
+    "channelFilters": [
+      {
+        "name": "TechnologyAndVersion",
+        "defaultValue": "Access 2016 (Windows)",
+        "filterValues": [
+          {
+            "id": 103,
+            "text": "Adobe Captivate 8"
+          },
+          {
+            "id": 101,
+            "text": "Access 2016 (Windows)"
+          }
+        ]
+      },
+      {
+        "name": "ExpertiseLevel",
+        "defaultValue": "Beginner",
+        "filterValues": [
+          {
+            "id": 104,
+            "text": "Beginner"
+          },
+          {
+            "id": 102,
+            "text": "Intermediate"
+          }
+        ]
+      }
+    ],
+    "channelViews": [
+      {
+        "id": "f75883f0-fcf1-11e6-a3ac-aa281aa43419",
+        "filterIds": [
+          101,
+          104
+        ],
+        "default": true,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "a2ea5450-fcf2-11e6-9f4e-99dfe71b41ed",
+        "filterIds": [
+          101,
+          102
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      }
+    ]
+  },
+  {
+    "id": "6af125a0-fcf3-11e6-9f4e-99dfe71b41ed",
+    "title": "newchan",
+    "description": "<p>newchan</p>",
+    "imageUrl": "https://s3.amazonaws.com/skillsoft-qa-cp-application/channel/images/saved/dc64ce30-e24a-11e6-93f3-0242c0a80605.jpg",
+    "type": "Channel",
+    "naturalLanguageBannerTemplate": "newchan",
+    "channelFilters": [
+      {
+        "name": "ExpertiseLevel",
+        "defaultValue": "Intermediate",
+        "filterValues": [
+          {
+            "id": 111,
+            "text": "Intermediate"
+          },
+          {
+            "id": 112,
+            "text": "Beginner"
+          }
+        ]
+      }
+    ],
+    "channelViews": [
+      {
+        "id": "a9bdf5b0-fcf3-11e6-9f4e-99dfe71b41ed",
+        "filterIds": [
+          111
+        ],
+        "default": true,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "75996b20-fcf3-11e6-9265-de3488054195",
+        "filterIds": [
+          112
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      }
+    ]
+  },
+  {
+    "id": "86e27bc0-fdb0-11e6-85bd-717e0d767754",
+    "title": "TEST CHANNEL",
+    "description": "",
+    "imageUrl": "https://s3.amazonaws.com/skillsoft-qa-cp-application/channel/images/saved/86e27bc0-fdb0-11e6-85bd-717e0d767754.jpg",
+    "type": "Channel",
+    "naturalLanguageBannerTemplate": "{ChannelTitle} {TechnologyAndVersion} {ExpertiseLevel}",
+    "channelFilters": [
+      {
+        "name": "TechnologyAndVersion",
+        "defaultValue": "Adobe Captivate 8",
+        "filterValues": [
+          {
+            "id": 175,
+            "text": "Adobe Captivate 8"
+          },
+          {
+            "id": 173,
+            "text": "Access 2016 (Windows)"
+          }
+        ]
+      },
+      {
+        "name": "ExpertiseLevel",
+        "defaultValue": "Intermediate",
+        "filterValues": [
+          {
+            "id": 174,
+            "text": "Intermediate"
+          },
+          {
+            "id": 176,
+            "text": "Beginner"
+          }
+        ]
+      }
+    ],
+    "channelViews": [
+      {
+        "id": "13ff8390-fdb1-11e6-85bd-717e0d767754",
+        "filterIds": [
+          176,
+          173
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "f6407670-fdb0-11e6-85bd-717e0d767754",
+        "filterIds": [
+          173,
+          174
+        ],
+        "default": false,
+        "pin": null,
+        "type": "ChannelView"
+      },
+      {
+        "id": "99ceff10-fdb0-11e6-aac0-3ea6901fecca",
+        "filterIds": [
+          174,
+          175
+        ],
+        "default": true,
+        "pin": null,
+        "type": "ChannelView"
+      }
+    ]
+  }
+]

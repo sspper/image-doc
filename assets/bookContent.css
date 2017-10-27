@@ -1,0 +1,172 @@
+body {
+   font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #343434;
+}
+
+h1 {
+  padding: 0 0 2em 0;
+  margin: 0;
+  font-size: 2.125em;
+  font-weight: 900;
+  color: #343434;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  margin-top: .8em;
+  border-bottom: solid 0.5px #656569;
+}
+
+h2 {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #343434;
+  font-size: 1.875em;
+  position: relative;
+  margin: 0 0 3.4em 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 1.375em;
+  font-weight: bold;
+  color: #343434;
+}
+
+p {
+  line-height: 1.625rem;
+  line-height: 1.625em;
+}
+
+blockquote {
+  padding-left: 1.5em;
+  font-size: 1.125em;
+  line-height: 1.875em;
+  font-style: italic;
+  color: #767676;
+  border-left: solid 5px #b7b7b7;
+  margin: 0;
+  overflow: auto;
+  display: block;
+}
+
+blockquote p {
+  line-height: 1.875em;
+}
+
+pre, .programlisting, blockquote {
+  overflow: auto;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.mediaobject {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+figcaption {
+  font-size: 0.875em;
+  color: #767676;
+  font-weight: normal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 0.875em;
+}
+
+.enlargeButton {
+  margin: 0;
+  padding: 0;
+  background: white;
+  border: none;
+  font-size: 0.875em;
+  line-height: 0.875em;
+  /* --lightPrimaryColor */
+  color: #2e77d3;
+  cursor: pointer;
+}
+
+.enlargeButton:hover {
+  /* --darkPrimaryColor */
+  color: #164794;
+}
+
+.enlargeButton:focus {
+  outline: none;
+}
+
+.highlight {
+  background-color: #ebeded;
+  padding: 20px;
+  border-top: solid 2.5px #b7b7b7;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0 0 0 2em;
+  padding: 0;
+}
+
+nav ol li {
+  margin: 0;
+  padding: 0;
+}
+
+nav ol li a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+a[href] {
+  text-decoration: none;
+  color: #2e77d3;
+  -ms-word-break: break-all;
+  /* This is nonstandard but avoids some problems with Webkit */
+  word-break: break-word;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+a[href]:hover {
+  color: #164794;
+}
+
+#guide {
+  display: none;
+}
+
+figure,
+div.noBreak,
+tr,
+section,
+.mediaobject {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.appendix section {
+  display: block;
+  min-height: 40vh;
+}
