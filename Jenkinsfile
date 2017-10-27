@@ -21,13 +21,12 @@ node ('docker') {
         withCredentials([usernamePassword(credentialsId: 'ssp25')]) {
             sh "docker login -u ssp25 -p Password@54321"
         }
-        doBuild(delivery) // You implement doBuild
+        doBuild() // You implement doBuild
 
-        delivery.notify("SUCCESS")
+        
     } catch (e) {
         currentBuild.result = "FAILED"
         echo "${e.getClass().getName()} - ${e.getMessage()}"
-        delivery.notifyFailure("${e.getClass().getName()} - ${e.getMessage()}")
         throw e
     }
 }
