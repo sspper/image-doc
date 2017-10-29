@@ -9,23 +9,12 @@ def branchTag() {
 
 def doBuild() {
 
-// #Develop Build tag and Push
-if('master' == branchTag()) {
     stage('master-build') {
         def image = docker.build("ssp25/sspcloud")
 	image.push(branchTag())
         image.push(branchAndBuildTag())    
       }
-  }
-// # Release Build Tag and Push
-if('release' == branchTag()) {
-    stage('release-build') {
-        def image = docker.build("ssp25/sspcloud")
-        image.push(branchTag())
-        image.push(branchAndBuildTag())        
-    }
   } 
-}
 
 
 node ('docker') {
