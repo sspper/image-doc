@@ -8,6 +8,8 @@ if('master' == branchTag()) {
 	image.push(delivery.branchTag())
         image.push(delivery.branchAndBuildTag())    
       }
+else
+    sh 'echo " This is not Master Branch"'
   }
 // # Release Build Tag and Push
 if('release' == branchTag()) {
@@ -15,7 +17,9 @@ if('release' == branchTag()) {
         def image = docker.build("ssp25/sspcloud")
         image.push(delivery.branchTag())
         image.push(delivery.branchAndBuildTag())        
-    } 
+    }
+else 
+     sh 'echo "release branch"' 
   } 
 }
 
