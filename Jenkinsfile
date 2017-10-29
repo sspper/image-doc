@@ -1,7 +1,7 @@
 
 def doBuild(delivery) {
 
-#Develop Build tag and Push
+// #Develop Build tag and Push
 if('master' == branchTag()) {
     stage('master-build') {
         def image = docker.build("ssp25/sspcloud")
@@ -9,7 +9,7 @@ if('master' == branchTag()) {
         image.push(delivery.branchAndBuildTag())    
       }
   }
-# Release Build Tag and Push
+// # Release Build Tag and Push
 if('release' == branchTag()) {
     stage('release-build') {
         def image = docker.build("ssp25/sspcloud")
