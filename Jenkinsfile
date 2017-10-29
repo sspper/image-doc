@@ -27,4 +27,3 @@ node ('docker') {
         throw e
     }
 }
-
