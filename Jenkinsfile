@@ -25,8 +25,8 @@ node ('docker') {
 
     stage(name: 'delivery') {
         checkout([$class: 'GitSCM', branches: [[name: "*/*"]], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'delivery']], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/sspper/image-doc.git']]])
-	delivery = load 'image-doc/branchtag.groovy'
-        sh 'ls .'    
+        sh 'ls .'
+	delivery = load 'branchtag.groovy'
 }
     
     try {
