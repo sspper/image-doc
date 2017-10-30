@@ -16,13 +16,11 @@ def doBuild() {
       }
   } 
 
-
 node ('docker') {
 
   stage(name: 'SCM') {
     checkout scm
 }
-
 
 //    stage(name: 'delivery') {
   //      checkout([$class: 'GitSCM', branches: [[name: "*/*"]], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'delivery']], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/sspper/image-doc.git']]])
@@ -36,8 +34,6 @@ node ('docker') {
      }
         doBuild() // You implement doBuild
 	
-
-        
     } catch (e) {
         currentBuild.result = "FAILED"
         echo "${e.getClass().getName()} - ${e.getMessage()}"
