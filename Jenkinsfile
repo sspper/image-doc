@@ -16,7 +16,7 @@ def doBuild() {
       }
   } 
 
-node ('docker') {
+node ('ssp_slave') {
 
   stage(name: 'SCM') {
     checkout scm
