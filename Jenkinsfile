@@ -20,6 +20,8 @@ node ('docker') {
 
   stage(name: 'SCM') {
     checkout scm
+	echo "1 "+ env.GIT_LOCAL_BRANCH
+  echo "2 "+ env.GIT_BRANCH  
 }
 
 //    stage(name: 'delivery') {
